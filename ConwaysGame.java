@@ -10,7 +10,7 @@ import java.util.ArrayList;
 class DatabaseConnection {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/conway_game"; // Update your database name
     private static final String USER = "root";  // Database username
-    private static final String PASS = "D1novich$"; // Database password
+    private static final String PASS = ""; // Database password
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(DB_URL, USER, PASS);
